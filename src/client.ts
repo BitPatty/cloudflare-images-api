@@ -33,7 +33,7 @@ class Client {
     baseUrlV1:
       'https://api.cloudflare.com/client/v4/accounts/<account_identifier>/images/v1',
     baseUrlV2:
-      'https://api.cloudflare.com/client/v4/accounts/<account_identifier>/images/v1',
+      'https://api.cloudflare.com/client/v4/accounts/<account_identifier>/images/v2',
   };
 
   private getApiEndpoint(version = 1): string {

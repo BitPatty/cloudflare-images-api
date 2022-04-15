@@ -36,6 +36,10 @@ describe('Image Lookup', () => {
     // @ts-ignore
     delete image.result.uploaded;
 
+    // eslint-disable-next-line
+    // @ts-ignore
+    delete image.result.variants;
+
     await expect(client.get(image.result.id)).resolves.toMatchObject({
       result: image.result,
     });
