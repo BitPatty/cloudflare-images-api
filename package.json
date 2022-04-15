@@ -1,0 +1,51 @@
+{
+  "name": "@bitpatty/ts-library-template",
+  "version": "0.0.1",
+  "description": "Template repository for my typescript libraries",
+  "author": "Matteias Collet <matteias.collet@bluewin.ch>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "deps:force-upgrade": "npm-check-updates -u && rm -rf node_modules && rm -f package-lock.json && npm i",
+    "docs": "typedoc src/index.ts",
+    "format": "prettier --write \"{src,test}/**/*.ts\" ",
+    "lint": "eslint --fix \"{test,src}/**/*.{js,ts}\"",
+    "test": "jest --verbose --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitPatty/ts-library-template.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/BitPatty/ts-library-template/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/BitPatty/ts-library-template#readme",
+  "devDependencies": {
+    "@types/jest": "27.4.1",
+    "@types/node": "16.11.27",
+    "@types/ts-nameof": "4.2.1",
+    "@typescript-eslint/eslint-plugin": "5.19.0",
+    "@typescript-eslint/parser": "5.19.0",
+    "eslint": "8.13.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jest": "26.1.4",
+    "eslint-plugin-prettier": "4.0.0",
+    "npm-check-updates": "12.5.9",
+    "prettier": "2.6.2",
+    "rimraf": "3.0.2",
+    "rollup": "2.70.2",
+    "rollup-plugin-typescript2": "0.31.2",
+    "ts-jest": "27.1.4",
+    "ts-nameof": "5.0.0",
+    "ts-transformer-keys": "0.4.3",
+    "tslib": "2.3.1",
+    "ttypescript": "1.5.13",
+    "typedoc": "0.22.15",
+    "typescript": "4.6.3"
+  }
+}
