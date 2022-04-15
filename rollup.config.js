@@ -28,5 +28,5 @@ export default {
       ],
     }),
   ],
-  external: [],
+  external: ['axios', 'form-data', 'fs'],
 };

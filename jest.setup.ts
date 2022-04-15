@@ -3,7 +3,7 @@
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace jest {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    // eslint-disable-next-line
     interface Matchers<R> {
       // Put custom matchers here
     }
@@ -11,5 +11,7 @@ declare global {
 }
 
 expect.extend({});
+
+jest.setTimeout(30000);
 
 export default undefined;

@@ -1,5 +1,5 @@
 {
-    "name": "ts-library-template",
+    "name": "cloudflare-images-api",
     "dockerComposeFile": "docker-compose.yml",
     "service": "application",
     "workspaceFolder": "/workspace",

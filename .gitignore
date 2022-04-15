@@ -12,3 +12,6 @@ dist
 coverage
 docs
 *.logs
+
+# Secrets
+.env
