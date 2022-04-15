@@ -1,4 +1,5 @@
 import { join } from 'path';
+
 import jestGlobals from '../jest.globals';
 import Client from '../src';
 

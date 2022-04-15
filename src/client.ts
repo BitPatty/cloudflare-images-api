@@ -1,6 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import FormData from 'form-data';
 import { createReadStream, ReadStream } from 'fs';
+
 import DeletionResult from './models/deletion-result';
 import DirectUploadUrlResponse from './models/direct-upload-url-response';
 import FindImageResult from './models/find-image-result';
