@@ -7,6 +7,7 @@ type Image = {
   requiredSignedURLs: boolean;
   variants: string[];
   meta?: ImageMetadata;
+  draft?: boolean;
 };
 
 export default Image;
