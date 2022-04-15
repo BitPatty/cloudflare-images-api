@@ -1,6 +1,6 @@
 {
   "name": "@bitpatty/cloudflare-images-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A library for interacting with the CloudFlare images API",
   "author": "Matteias Collet <matteias.collet@bluewin.ch>",
   "main": "dist/index.js",
