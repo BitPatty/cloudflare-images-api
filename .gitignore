@@ -10,7 +10,6 @@ dist
 # Generated
 .cache
 coverage
-docs
 *.logs
 
 # Secrets
