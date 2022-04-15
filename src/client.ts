@@ -138,7 +138,8 @@ class Client {
   /**
    * Uploads the specified Image to CloudFlare
    *
-   * @param source   The local path to the image or a stream/buffer containing the image
+   * @param source   The path or URL of the image or a
+   *                 buffer/stream containing the image data
    * @param options  Optional upload options
    * @returns        The uploaded image data
    */
@@ -154,10 +155,14 @@ class Client {
           formData.append(e[0], JSON.stringify(e[1]));
       }
 
-    const streamOrBuffer =
-      typeof source === 'string' ? createReadStream(source) : source;
+    if (typeof source === 'string' && source.startsWith('http')) {
+      formData.append('url', source);
+    } else {
+      const streamOrBuffer =
+        typeof source === 'string' ? createReadStream(source) : source;
 
-    formData.append('file', streamOrBuffer);
+      formData.append('file', streamOrBuffer);
+    }
 
     return this.cloudFlareCatcher(() =>
       axios.post<UploadResult>(
