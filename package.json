@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "5.19.0",
     "eslint": "8.13.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-jest": "26.1.4",
+    "eslint-plugin-jest": "26.2.2",
     "eslint-plugin-prettier": "4.0.0",
     "npm-check-updates": "12.5.9",
     "prettier": "2.6.2",
