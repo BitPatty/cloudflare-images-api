@@ -7,7 +7,7 @@ A simple client to perform actions on the [Cloudflare Images](https://www.cloudf
 The package can installed via npm
 
 ```sh
-npm install @bitpatty/cloudfoundry-images-api
+npm install @bitpatty/cloudflare-images-api
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install @bitpatty/cloudfoundry-images-api
 2. Instantiate a new client with your account ID and your API Key
 
 ```typescript
-import Client from '@bitpatty/cloudfoundry-images-api';
+import Client from '@bitpatty/cloudflare-images-api';
 
 const client = new Client('your account id', 'your API key');
 ```
