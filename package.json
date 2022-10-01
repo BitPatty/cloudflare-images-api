@@ -31,7 +31,7 @@
     "@types/node": "18.7.23",
     "@types/ts-nameof": "4.2.1",
     "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1",
+    "@typescript-eslint/parser": "5.38.1",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jest": "27.0.1",
