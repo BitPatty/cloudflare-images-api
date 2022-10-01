@@ -28,7 +28,7 @@
   "homepage": "https://github.com/BitPatty/cloudflare-images-api#readme",
   "devDependencies": {
     "@types/jest": "29.0.0",
-    "@types/node": "18.7.14",
+    "@types/node": "18.7.23",
     "@types/ts-nameof": "4.2.1",
     "@typescript-eslint/eslint-plugin": "5.36.1",
     "@typescript-eslint/parser": "5.36.1",
@@ -40,13 +40,13 @@
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
     "rollup": "2.79.0",
-    "rollup-plugin-typescript2": "0.33.0",
+    "rollup-plugin-typescript2": "0.34.0",
     "ts-jest": "28.0.8",
     "ts-nameof": "5.0.0",
     "ts-transformer-keys": "0.4.3",
     "tslib": "2.4.0",
     "ttypescript": "1.5.13",
-    "typedoc": "0.23.13",
+    "typedoc": "0.23.15",
     "typescript": "4.8.2"
   },
   "peerDependencies": {
