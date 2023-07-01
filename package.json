@@ -27,7 +27,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://github.com/BitPatty/cloudflare-images-api#readme",
   "devDependencies": {
-    "@types/jest": "29.4.0",
+    "@types/jest": "29.5.2",
     "@types/node": "18.15.11",
     "@types/ts-nameof": "4.2.2",
     "@typescript-eslint/eslint-plugin": "5.60.1",
